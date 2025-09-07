@@ -1,87 +1,61 @@
-/* Importing Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins",sans-serif;
-}
-:root {
-    /* colors */
-    --white-color:#fff;
-    --dark-color:#252525;
-    --primary-color:#3b141c;
-    --secondar-color:#f3961c;
-    --light-pink-color:#faf4f5;
-    --medium-gray-color:#ccc;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header / Navbar -->
 
-    /* Font Size */
-    --font-size-s:0.9rem;
-    --font-size-n:1rem;
-    --font-size-m:1.12rem;
-    --font-size-l:1.5rem;
-    --font-size-xl:2rem;
-    --font-size-xxl:2.3rem;
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">☕ Coffee </h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Testominials</a>
+                </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Gallery</a>
+                </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+     <section class="hero-section">
+        <div class="section-content">
+            <div class="hero-details">
+                <h2 class="title">Best Coffee</h2>
+                <h3 class="subtitle">Make Your day great with our special</h3>
+                <p class="description">
+                    Welcome to our coffee paradise , where every bean tells  a story and every cup sparks joy.
+                </p>
+           
+            <div class="buttons">
+                <a href="#" class="button order-now">Order Now</a>
+                <a href="#" class="button contact-us">Contact Us</a>
+            </div>
+             </div>
+            <div class="hero-image-wrapper">
+                <img src="image/coffeeMug2.png" alt="#" style="width: 350px; height: 350px;">
+            </div>
+        </div>
 
-    /* Font Weight */
-    --font-weight-normal:400;
-    --font-weight-medium:500;
-    --font-weight-semibold:600;
-    --font-weight-bold:700;
-    /* site max width */
-    --site-max-width:1300px;
-    /* Border Radius */
-    --border-radius-s:8px;
-    --border-radius-m:30px;
-    --border-radius-circle:50%;
-}
 
-ul{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
 
-button{
-    cursor: pointer;
-    border: none;
-    background: none;
-}
-
-img{
-    width: 100%;
-}
-header .navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-header{
-    background: var(--primary-color);
-}
-
-.navbar .nav-menu{
-    display: flex;
-    gap:10px;
-}
-
-.navbar .nav-logo .logo-text{
-    color: var(--white-color);
-}
-
-.navbar .nav-menu .nav-link {
-    color:  var(--white-color);
-}
-.navbar .nav-menu .nav-link {
-    padding: 10px 18px;
-    color:var(--white-color);
-    background: var(--secondar-color);
-    border-radius: var(--border-radius-m);
-    font-size: var(--font-size-m);
-}
-.navbar .nav-menu .nav-link:hover{
-    color: var(--primary-color);
-    background-color: var(--secondar-color);
-}
+     </section>
+    
+</body>
+</html>
